@@ -14,11 +14,11 @@ public class Professor extends Pessoa {
         return (registro);
     }
 
-    public void setDisciplinas1(String disciplinas) {
+    public void setDisciplinasMinistradas(String disciplinas) {
         this.disciplinas = disciplinas;
     }
 
-    public String getDisciplinas() {
+    public String getDisciplinasMinistradas() {
         return (disciplinas);
     }
 

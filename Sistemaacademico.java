@@ -76,7 +76,7 @@ public class Sistemaacademico {
 		if (professor != null) {
 			JOptionPane.showMessageDialog(null,
 					"Professor consta no sistema!\nNome: " + professor.getNome() + "\nEndereço: "
-							+ professor.getEndereco() + "\nCurso: " + professor.getDisciplinas() + "\nSexo: "
+							+ professor.getEndereco() + "\nCurso: " + professor.getDisciplinasMinistradas() + "\nSexo: "
 							+ professor.getSexo() + "\nTelefone: " + professor.getTelefone());
 		} else {
 			JOptionPane.showMessageDialog(null, "Professor não encontrado!", "Aviso", JOptionPane.ERROR_MESSAGE);
