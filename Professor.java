@@ -2,8 +2,8 @@ package sistemaacademico;
 
 public class Professor extends Pessoa {
 
-    private String registro;   
-    private String disciplinas;
+    private String registro, 
+    disciplinas;
     
 
     public void setRegistro(String registro) {
